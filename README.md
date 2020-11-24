@@ -18,17 +18,17 @@
 #  after() method used to give a delay of 1000 millisecond which is 1 sec
 # Step 4: create function to start timer
 #  sec is a string type variable that stores the seconds.
-#  mins is a string type variable that stores the minutes.
-#  hrs is a string type variable that stores the hours
-#  Entry() widget is used to create an input text field.
-#  textvariable used to retrieve text from specific variable to entry widget
-#  place() widgets place widgets in a specific position in the parent widget.
-#  times variable gets the hours value multiplied by 3600 (1 h = 3600 sec), mins value multiplied by 60 (1 min = 60 sec), and sec value.
-#  ‘//’ operator returns the result of the division in a whole integer value
-#  ‘%’ operator used to returns the remainder of the division
-#  While time is greater then -1 the countdown will run. When times value become 0 then the countdown stop and a sound play that indicate your time is up.
-# Step 5: create button
-# Button() widget used to display a button on window
-#  bd sets the size of the border
-#  command calls the function when we click on button
-#  root.mainloop() is a method which executes when we want to run our program
+#mins is a string type variable that stores the minutes.
+#hrs is a string type variable that stores the hours
+#Entry() widget is used to create an input text field.
+#textvariable used to retrieve text from specific variable to entry widget
+#place() widgets place widgets in a specific position in the parent widget.
+#times variable gets the hours value multiplied by 3600 (1 h = 3600 sec), mins value multiplied by 60 (1 min = 60 sec), and sec value.
+#‘//’ operator returns the result of the division in a whole integer value
+#‘%’ operator used to returns the remainder of the division
+#While time is greater then -1 the countdown will run. When times value become 0 then the countdown stop and a sound play that indicate your time is up.
+#Step 5: create button
+#Button() widget used to display a button on window
+#bd sets the size of the border
+#command calls the function when we click on button
+#root.mainloop() is a method which executes when we want to run our program
