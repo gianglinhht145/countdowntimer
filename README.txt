@@ -1,5 +1,5 @@
 # countdowntimer
-# This countdown timer is like an alarm that will give the user options to set time and when the time is over, it will nofify the user. It also displays current time.
+This countdown timer is like an alarm that will give the user options to set time and when the time is over, it will nofify the user. It also displays current time.
 # The project was built with basic Python libraries such as: time, playsound, tkinter
 # Step 1: import required module
 # Step 2: create a display window
@@ -13,11 +13,11 @@
 #  text which we display on the label
 #  font in which the text is written
 #  pack organizes widget in block
-# Step 3: create current time
-#  strftime() method return the string representing the time in given format
-#  after() method used to give a delay of 1000 millisecond which is 1 sec
-# Step 4: create function to start timer
-#  sec is a string type variable that stores the seconds.
+Step 3: create current time
+#strftime() method return the string representing the time in given format
+#after() method used to give a delay of 1000 millisecond which is 1 sec
+#Step 4: create function to start timer
+#sec is a string type variable that stores the seconds.
 #mins is a string type variable that stores the minutes.
 #hrs is a string type variable that stores the hours
 #Entry() widget is used to create an input text field.
